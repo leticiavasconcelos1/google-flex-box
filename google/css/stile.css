@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column ;
+}
+
+.header{
+    background: rgb(255, 255, 255);
+    height: 60px;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    padding-left: 10px;
+    font-size: 14px;
+
+}
+
+ion-icon{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 20px ;
+    transition: .3s;
+}
+
+ion-icon:hover{
+    background: #6B7682;
+    border-radius: 20px ;
+}
+
+.botao{
+    text-decoration: none;
+    background: blue;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px ;
+}
+
+.botao:hover{
+    background: rgb(68, 68, 177);
+}
+
+.main{
+    background: white;
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-cinza{
+    font-size: 13px ;
+    text-decoration: none;
+    background: rgb(201, 201, 201);
+    padding: 8px 15px 8px 15px;
+    color: rgb(58, 58, 58);
+    border-radius: 5px;
+    margin-left: 5px ;
+    border: 1px solid rgb(189, 189, 189);
+
+}
+
+.pesquisa{
+    margin: 10px;
+    height: 40px;
+    min-width: 40vw;
+    max-width: 75vw;
+    border-radius: 20px;
+
+
+}
+
+.pesquisa:hover{
+    box-shadow: 2px 0px 5px 1px rgb(2, 2, 2);
+}
+
+.footer {
+    color: rgb(49, 49, 49);
+    background: grey;
+    height: 60px;
+    border-bottom: 1px solid rgb(99, 99, 99);
+    font-size: 18px;
+    padding-left: 16px;
+
+    display: flex;
+    align-items: center;
+    
+}
